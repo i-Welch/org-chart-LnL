@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ILayoutNode } from './org-chart/org-chart.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'org-chart-update';
+  title = 'app works!';
+  public layout: ILayoutNode[] = [
+    {
+      xPos: 10,
+      yPos: 10,
+      width: 18,
+      height: 12,
+      Id: "generic",
+    },
+  ];
+
+
 }

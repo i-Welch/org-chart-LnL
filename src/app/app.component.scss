@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  background-color: rgb(216, 216, 216);
+}
+
+.box {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: fixed;
+  width: 22em;
+  height: 100vh;
+  right: 0px;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+h3 {
+  font-size: 2.5em;
+  color: #8792a7;
+  font-family: Roboto,Arial,Tahoma,Verdana,sans-serif;
+}
